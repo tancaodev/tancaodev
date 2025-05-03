@@ -25,15 +25,13 @@ My name is Tan Cao. I am a Web Front-End Developer. I am interested in the follo
 
 <a href="https://github.com/tancaodev/React-Dot-Net-Final-Project">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=tancaodev&repo=React-Dot-Net-Final-Project&theme=radical" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tancaodev&repo=React-Dot-Net-Final-Project&theme=radical" />
 </a>    
-<a href="https://github.com/tancaodev/ASCII-generator/">
+<a href="https://github.com/tancaodev/Ecommerce-Store/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=tancaodev&repo=Ecommerce-Store&theme=merko" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tancaodev&repo=Ecommerce-Store&theme=merko" />
 </a>
-
-<a href="https://github.com/tancaodev/Super-mario-bros-A3C-pytorch/">
+<a href="https://github.com/tancaodev/E-Commerce-Admin/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=tancaodev&repo=E-Commerce-Admin
-&theme=gruvbox" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tancaodev&repo=E-Commerce-Admin&theme=gruvbox" />
 </a>
