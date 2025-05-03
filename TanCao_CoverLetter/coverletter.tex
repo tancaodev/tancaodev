@@ -1,0 +1,140 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\usepackage{hyperref}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,noedge,left]{tan_picture}
+\name{Tan}{Cao}
+\position{Frontend Focused Developer {\enskip\cdotp\enskip} Fullstack Developer}
+\address{District 8, Ho Chi Minh City}
+
+\mobile{(+84) 865-373-260}
+\email{tancao.work@gmail.com}
+\homepage{https://tancaodev-portfolio-tancaodev.vercel.app/}
+\github{https://github.com/tancaodev}
+\linkedin{https://www.linkedin.com/in/tancao1803/}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``It's never too late for anything. It's only too late if you don't do it today."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for the position: Software Engineer at [Company]}
+% How the letter is opened
+\letteropening{Dear recruitment team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Tan Cao~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I graduated from Ton Duc Thang University with a major in Computer Networks and Data Communications. Although my academic focus was on networking, I developed a strong passion for software development during my studies, which I’ve since pursued as a career.
+
+I have one year of experience as a Frontend Developer at Meowcart Ecommerce, a Shopify-focused startup. I applied my web programming and data communication skills to develop scalable and secure web applications. I contributed to projects for well-known brands in Vietnam such as Crocs, FitFlop, SEESON, and TheVapeClub. Notably, I led the Crocs Loyalty project and helped build a Shopify-integrated app allowing users to log in with phone numbers and receive OTPs via Zalo or SMS.
+
+While my strengths are in frontend development, I’m actively working toward becoming a Full Stack Developer. I take courses on Udemy and Coursera to improve programming and system design skills, and I’m currently preparing for the AWS certification.
+
+\lettersection{Why [Company]?}
+I truly admire the company’s products as well as its strong commitment to personal and professional development. (I believe your solutions make coding more accessible for beginners, which is something I deeply respect. Working at your company would give me the opportunity to contribute to improving current products, making them more engaging and user-friendly, and to participate in the development of future projects.) I hope to apply my skills in web development, problem-solving, and system design to create meaningful impact.
+
+Moreover, your employee policies and benefits make me confident that this is an environment where I can grow sustainably — where collaboration is encouraged and individual potential is recognized. Last but not least, the chance to work alongside talented colleagues at your company excites me, as it would allow me to contribute my skills while also learning and growing professionally.
+
+\lettersection{Why Me?}
+I’m someone who’s always eager to learn and apply new knowledge to real-world projects. This mindset fuels my professional growth — whether solving technical issues at work or building side projects on GitHub. It’s also what inspired me to apply after reading your job description. And I believe my self-driven learning, hands-on experience, and strong curiosity align well with the role. I’m confident I can bring value to your team while continuing to grow in a dynamic and innovative environment.
+
+I am looking forward to hearing from you and thank you for your consideration.
+\end{cvletter}
+
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
